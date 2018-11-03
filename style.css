@@ -1,0 +1,40 @@
+@media (max-width:400px) {
+  .content {
+    font-size: 10px;
+  }
+}
+
+@media (min-width:401px) and (max-width:599px) {
+  .content {
+    font-size: 12px;
+  }
+}
+
+@media (min-width:600px) and (max-width:767px) {
+  .content {
+    font-size: 14px;
+  }
+}
+
+@media (min-width:768px) and (max-width:950px) {
+  .content {
+    font-size: 16px;
+  }
+}
+
+@media (min-width:951px) and (max-width:1050px) {
+  .content {
+    font-size: 18px;
+  }
+}
+
+@media (min-width:1051px) {
+  .content {
+    font-size: 21px;
+  }
+}
+
+.page {
+  max-width: 1080px;
+  margin: 0 auto;
+}
